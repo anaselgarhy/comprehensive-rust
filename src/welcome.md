@@ -26,17 +26,13 @@ writing code for Android itself, the operating system.
 Rust is a large language and we won't be able to cover all of it in a few days.
 Some non-goals of this course are:
 
-* Learn how to use async Rust --- we'll only talk a bit about async Rust when
+* Learn how to use async Rust --- we'll only mention async Rust when
   covering traditional concurrency primitives. Please see [Asynchronous
   Programming in Rust](https://rust-lang.github.io/async-book/) instead for
   details on this topic.
 * Learn how to develop macros, please see [Chapter 19.5 in the Rust
   Book](https://doc.rust-lang.org/book/ch19-06-macros.html) and [Rust by
   Example](https://doc.rust-lang.org/rust-by-example/macros.html) instead.
-* Learn the details of how to write unsafe Rust. We will talk about unsafe Rust
-  on Day 3, but we do not cover the subtle details. Please see [Chapter 19.1 in
-  the Rust Book](https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html) and
-  the [Rustonomicon](https://doc.rust-lang.org/nomicon/) instead.
 
 ## Assumptions
 
@@ -46,3 +42,11 @@ explain or contrast the Rust approach.
 
 If you know how to program in a dynamically typed language such as Python or
 JavaScript, then you will be able to follow along just fine too.
+
+<details>
+
+This is an example of a _speaker note_. We will use these to add additional
+information to the slides. This could be key points which the instructor should
+cover as well as answers to typical questions which come up in class.
+
+</details>

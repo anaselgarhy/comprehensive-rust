@@ -41,6 +41,15 @@ fn read_username(path: &str) -> Result<String, io::Error> {
 fn main() {
     //fs::write("config.dat", "alice").unwrap();
     let username = read_username("config.dat");
-    println!("username: {username:?}");
+    println!("username or error: {username:?}");
 }
 ```
+
+<details>
+
+Key points:
+
+* The `username` variable can be either `Ok(string)` or `Err(error)`.
+* Use the `fs::write` call to test out the different scenarios: no file, empty file, file with username.
+
+</details>
